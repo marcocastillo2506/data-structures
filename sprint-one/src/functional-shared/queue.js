@@ -16,7 +16,7 @@ var Queue = function() {
 
     enqueue: function(value) {
       this.storage[this.counter++] = value;
-    },
+          },
     dequeue: function() {
       if (this.counter > 0) {
         var removed = this.storage[0];
